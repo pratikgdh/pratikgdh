@@ -17,6 +17,11 @@
 
   <br/><br/>
 
+  <!-- Repository Orbit / Solar System Visualizer -->
+  <img src="solar-system.svg" width="100%" alt="Repository Orbit Solar System" />
+
+  <br/><br/>
+
   <!-- Dark Slate Contribution Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=pratikgdh&theme=github-dark&hide_border=true&bg_color=0D1117&color=E6EDF3&line=56D364&point=2EA043" width="100%" alt="Activity Graph" />
 
