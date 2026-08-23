@@ -17,43 +17,90 @@
 
   <br/><br/>
 
-  <!-- 🚀 Featured Projects & Systems -->
+  <!-- 🛠️ Featured Unreal Engine Plugins & Projects -->
   <table border="0" align="center" width="100%">
     <tr>
-      <td width="50%" valign="top" style="padding: 12px;">
-        <h3>🎮 Flow Menu</h3>
-        <p>Modular dynamic menu & rapid navigation system engineered for Unreal Engine.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
-          <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
-          <img src="https://img.shields.io/badge/Plugin-161B22?style=flat-square&logoColor=white" />
-        </p>
+      <td width="50%" valign="top" style="padding: 14px; background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+        <div align="left">
+          <h3>
+            <a href="https://github.com/pratikgdh/FlowMenu" style="text-decoration: none; color: #58a6ff;">
+              🎮 FlowMenu
+            </a>
+          </h3>
+          <p style="color: #8b949e; font-size: 14px;">
+            Editor-only Unreal Engine plugin providing a cursor-centric quick-add popup in the level viewport for fast actor, Blueprint, and static mesh spawning with keyboard-first navigation and surface-normal alignment.
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
+            <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
+            <img src="https://img.shields.io/badge/Editor%20Plugin-161B22?style=flat-square" />
+            <a href="https://github.com/pratikgdh/FlowMenu/stargazers">
+              <img src="https://img.shields.io/github/stars/pratikgdh/FlowMenu?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
+            </a>
+          </p>
+        </div>
       </td>
-      <td width="50%" valign="top" style="padding: 12px;">
-        <h3>🎨 Theme Engine Pro</h3>
-        <p>Advanced runtime styling, UI theming, and palette management framework for interactive applications.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Theme%20Engine-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
-          <img src="https://img.shields.io/badge/UI%2FUX%20System-21262D?style=flat-square" />
-        </p>
+      <td width="50%" valign="top" style="padding: 14px; background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+        <div align="left">
+          <h3>
+            <a href="https://github.com/pratikgdh/Unreal-theme-engine" style="text-decoration: none; color: #58a6ff;">
+              🎨 Theme Engine Pro
+            </a>
+          </h3>
+          <p style="color: #8b949e; font-size: 14px;">
+            Unreal Engine editor plugin to build, manage, and switch custom editor themes with built-in presets, global color palettes, Blueprint graph styling, and typography customizations.
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
+            <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
+            <img src="https://img.shields.io/badge/UI%20Theming-161B22?style=flat-square" />
+            <a href="https://github.com/pratikgdh/Unreal-theme-engine/stargazers">
+              <img src="https://img.shields.io/github/stars/pratikgdh/Unreal-theme-engine?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
+            </a>
+          </p>
+        </div>
       </td>
     </tr>
     <tr>
-      <td width="50%" valign="top" style="padding: 12px;">
-        <h3>⚡ Shortcut Cards</h3>
-        <p>Visual quick-action command cards and developer workflow accelerator.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Productivity-21262D?style=flat-square" />
-          <img src="https://img.shields.io/badge/Workflow%20Tools-161B22?style=flat-square" />
-        </p>
+      <td width="50%" valign="top" style="padding: 14px; background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+        <div align="left">
+          <h3>
+            <a href="https://github.com/pratikgdh/favoritenodes" style="text-decoration: none; color: #58a6ff;">
+              ⚡ Favorite Nodes
+            </a>
+          </h3>
+          <p style="color: #8b949e; font-size: 14px;">
+            Unreal Engine Blueprint editor plugin that instantly spawns your favorite Blueprint nodes at the mouse cursor from a hotkey popup menu (default <code>Q</code>) inside any graph editor.
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
+            <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
+            <img src="https://img.shields.io/badge/Blueprint%20Tool-161B22?style=flat-square" />
+            <a href="https://github.com/pratikgdh/favoritenodes/stargazers">
+              <img src="https://img.shields.io/github/stars/pratikgdh/favoritenodes?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
+            </a>
+          </p>
+        </div>
       </td>
-      <td width="50%" valign="top" style="padding: 12px;">
-        <h3>📝 More Notes • Favorite Notes</h3>
-        <p>Clean, high-efficiency note-taking, pinning, and rapid reference management tool.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Knowledge%20Base-21262D?style=flat-square" />
-          <img src="https://img.shields.io/badge/Smart%20Notes-161B22?style=flat-square" />
-        </p>
+      <td width="50%" valign="top" style="padding: 14px; background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+        <div align="left">
+          <h3>
+            <a href="https://github.com/pratikgdh/more-node-shortcuts" style="text-decoration: none; color: #58a6ff;">
+              ⌨️ More Node Shortcuts
+            </a>
+          </h3>
+          <p style="color: #8b949e; font-size: 14px;">
+            Productivity plugin for Unreal Engine offering extended shortcut key mappings and rapid-spawn creation commands for Blueprint nodes and graph workflows.
+          </p>
+          <p>
+            <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
+            <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
+            <img src="https://img.shields.io/badge/Shortcuts-161B22?style=flat-square" />
+            <a href="https://github.com/pratikgdh/more-node-shortcuts/stargazers">
+              <img src="https://img.shields.io/github/stars/pratikgdh/more-node-shortcuts?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
+            </a>
+          </p>
+        </div>
       </td>
     </tr>
   </table>
