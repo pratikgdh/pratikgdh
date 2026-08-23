@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 150" width="100%" height="150">
+  <defs>
+    <pattern id="bpGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#21262D" stroke-width="0.7" />
+    </pattern>
+  </defs>
+  <style>
+    .q-hotkey {
+      animation: keyPress 3.5s infinite ease-in-out;
+      transform-origin: 45px 35px;
+    }
+    .popup-menu {
+      animation: popupAnim 3.5s infinite ease-in-out;
+      transform-origin: 190px 75px;
+    }
+    .node-spawn {
+      animation: nodeSpawn 3.5s infinite ease-in-out;
+      transform-origin: 240px 75px;
+    }
+    @keyframes keyPress {
+      0%, 10% { transform: scale(1); filter: drop-shadow(0 0 0px #FFF); }
+      15%, 30% { transform: scale(1.2); filter: drop-shadow(0 0 8px #58A6FF); }
+      35%, 100% { transform: scale(1); filter: none; }
+    }
+    @keyframes popupAnim {
+      0%, 20% { opacity: 0; transform: scale(0.6); }
+      25%, 65% { opacity: 1; transform: scale(1); }
+      75%, 100% { opacity: 0; transform: scale(0.8); }
+    }
+    @keyframes nodeSpawn {
+      0%, 65% { opacity: 0; transform: scale(0.3); }
+      75%, 95% { opacity: 1; transform: scale(1); }
+      100% { opacity: 0; transform: scale(0.8); }
+    }
+  </style>
+
+  <!-- Blueprint Canvas Grid -->
+  <rect width="100%" height="100%" fill="#0D1117" rx="8" />
+  <rect width="100%" height="100%" fill="url(#bpGrid)" rx="8" />
+
+  <!-- Hotkey Indicator Badge -->
+  <g class="q-hotkey" transform="translate(30, 20)">
+    <rect x="0" y="0" width="32" height="32" fill="#21262D" stroke="#58A6FF" stroke-width="1.8" rx="6" />
+    <text x="10" y="22" fill="#FFFFFF" font-family="monospace" font-size="16" font-weight="bold">Q</text>
+    <text x="-12" y="44" fill="#8B949E" font-family="sans-serif" font-size="8">Hotkey Press</text>
+  </g>
+
+  <!-- Favorite Nodes Popup Menu -->
+  <g class="popup-menu" transform="translate(100, 25)">
+    <rect x="0" y="0" width="135" height="100" fill="#161B22" stroke="#58A6FF" stroke-width="1.2" rx="6" />
+    <rect x="0" y="0" width="135" height="18" fill="#21262D" rx="6" />
+    <text x="8" y="13" fill="#58A6FF" font-family="sans-serif" font-size="9" font-weight="bold">⭐ Favorite Nodes</text>
+
+    <!-- Node options -->
+    <rect x="6" y="24" width="123" height="16" rx="3" fill="#21262D" />
+    <text x="12" y="36" fill="#E6EDF3" font-family="sans-serif" font-size="8.5">🔀 Branch (IF)</text>
+
+    <!-- Selected item -->
+    <rect x="6" y="44" width="123" height="16" rx="3" fill="#1F6FEB" />
+    <text x="12" y="56" fill="#FFFFFF" font-family="sans-serif" font-size="8.5" font-weight="bold">🖨️ Print String</text>
+
+    <rect x="6" y="64" width="123" height="16" rx="3" fill="#21262D" />
+    <text x="12" y="76" fill="#E6EDF3" font-family="sans-serif" font-size="8.5">📍 Set Actor Location</text>
+
+    <rect x="6" y="84" width="123" height="12" rx="3" fill="#21262D" />
+    <text x="12" y="93" fill="#8B949E" font-family="sans-serif" font-size="7.5">⏱️ Delay Node</text>
+  </g>
+
+  <!-- Spawned Blueprint Node -->
+  <g class="node-spawn" transform="translate(250, 45)">
+    <rect x="0" y="0" width="115" height="60" fill="#161B22" stroke="#58A6FF" stroke-width="1.2" rx="4" />
+    <rect x="0" y="0" width="115" height="18" fill="#0C4A6E" rx="4" />
+    <text x="6" y="13" fill="#38BDF8" font-family="sans-serif" font-size="8.5" font-weight="bold">🖨️ Print String</text>
+    <!-- Pins -->
+    <circle cx="8" cy="30" r="3" fill="#FFFFFF" />
+    <text x="15" y="33" fill="#E6EDF3" font-family="sans-serif" font-size="8">In</text>
+    <circle cx="107" cy="30" r="3" fill="#FFFFFF" />
+    <text x="85" y="33" fill="#E6EDF3" font-family="sans-serif" font-size="8">Out</text>
+  </g>
+</svg>

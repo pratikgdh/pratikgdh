@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 150" width="100%" height="150">
+  <defs>
+    <pattern id="bpGridShort" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M 16 0 L 0 0 0 16" fill="none" stroke="#21262D" stroke-width="0.7" />
+    </pattern>
+  </defs>
+  <style>
+    .key-b { animation: pressB 3.5s infinite ease-in-out; }
+    .key-s { animation: pressS 3.5s infinite ease-in-out; }
+    .node-b { animation: spawnB 3.5s infinite ease-in-out; transform-origin: 190px 45px; }
+    .node-s { animation: spawnS 3.5s infinite ease-in-out; transform-origin: 290px 95px; }
+    .wire-flow { animation: wirePulse 3.5s infinite ease-in-out; }
+
+    @keyframes pressB {
+      0%, 10% { transform: scale(1); }
+      15%, 45% { transform: scale(1.15); fill: #1F6FEB; stroke: #58A6FF; }
+      50%, 100% { transform: scale(1); fill: #21262D; stroke: #30363D; }
+    }
+    @keyframes pressS {
+      0%, 45% { transform: scale(1); fill: #21262D; stroke: #30363D; }
+      50%, 80% { transform: scale(1.15); fill: #1F6FEB; stroke: #58A6FF; }
+      85%, 100% { transform: scale(1); fill: #21262D; stroke: #30363D; }
+    }
+    @keyframes spawnB {
+      0%, 15% { opacity: 0; transform: scale(0.4); }
+      25%, 90% { opacity: 1; transform: scale(1); }
+      95%, 100% { opacity: 0; }
+    }
+    @keyframes spawnS {
+      0%, 50% { opacity: 0; transform: scale(0.4); }
+      60%, 90% { opacity: 1; transform: scale(1); }
+      95%, 100% { opacity: 0; }
+    }
+    @keyframes wirePulse {
+      0%, 55% { opacity: 0; stroke-dashoffset: 60; }
+      65%, 90% { opacity: 1; stroke-dashoffset: 0; }
+      95%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Blueprint Grid -->
+  <rect width="100%" height="100%" fill="#0D1117" rx="8" />
+  <rect width="100%" height="100%" fill="url(#bpGridShort)" rx="8" />
+
+  <!-- Keyboard Shortcuts Bar -->
+  <g transform="translate(25, 20)">
+    <text x="0" y="8" fill="#8B949E" font-family="sans-serif" font-size="8.5" font-weight="bold">RAPID SHORTCUTS</text>
+    
+    <!-- Key B -->
+    <g transform="translate(0, 18)">
+      <rect x="0" y="0" width="28" height="28" rx="4" class="key-b" fill="#21262D" stroke="#30363D" stroke-width="1.5" />
+      <text x="8.5" y="19" fill="#FFFFFF" font-family="monospace" font-size="14" font-weight="bold">B</text>
+      <text x="36" y="18" fill="#E6EDF3" font-family="sans-serif" font-size="8.5">Branch</text>
+    </g>
+
+    <!-- Key S -->
+    <g transform="translate(0, 56)">
+      <rect x="0" y="0" width="28" height="28" rx="4" class="key-s" fill="#21262D" stroke="#30363D" stroke-width="1.5" />
+      <text x="9" y="19" fill="#FFFFFF" font-family="monospace" font-size="14" font-weight="bold">S</text>
+      <text x="36" y="18" fill="#E6EDF3" font-family="sans-serif" font-size="8.5">Sequence</text>
+    </g>
+  </g>
+
+  <!-- Connecting Wire -->
+  <path d="M 235 52 C 260 52, 250 102, 275 102" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-dasharray="6 3" class="wire-flow" />
+
+  <!-- Node 1: Branch -->
+  <g class="node-b" transform="translate(145, 25)">
+    <rect x="0" y="0" width="90" height="52" fill="#161B22" stroke="#30363D" stroke-width="1.2" rx="4" />
+    <rect x="0" y="0" width="90" height="16" fill="#1E293B" rx="4" />
+    <text x="6" y="11.5" fill="#94A3B8" font-family="sans-serif" font-size="8" font-weight="bold">🔀 Branch</text>
+    <circle cx="8" cy="27" r="2.5" fill="#FFFFFF" />
+    <circle cx="82" cy="27" r="2.5" fill="#FFFFFF" />
+    <text x="62" y="29.5" fill="#3FB950" font-family="sans-serif" font-size="7.5">True</text>
+    <circle cx="82" cy="41" r="2.5" fill="#FFFFFF" />
+    <text x="59" y="43.5" fill="#F85149" font-family="sans-serif" font-size="7.5">False</text>
+  </g>
+
+  <!-- Node 2: Sequence -->
+  <g class="node-s" transform="translate(265, 75)">
+    <rect x="0" y="0" width="95" height="52" fill="#161B22" stroke="#30363D" stroke-width="1.2" rx="4" />
+    <rect x="0" y="0" width="95" height="16" fill="#1E293B" rx="4" />
+    <text x="6" y="11.5" fill="#94A3B8" font-family="sans-serif" font-size="8" font-weight="bold">🔢 Sequence</text>
+    <circle cx="8" cy="27" r="2.5" fill="#FFFFFF" />
+    <circle cx="87" cy="27" r="2.5" fill="#FFFFFF" />
+    <text x="65" y="29.5" fill="#E6EDF3" font-family="sans-serif" font-size="7.5">Then 0</text>
+    <circle cx="87" cy="41" r="2.5" fill="#FFFFFF" />
+    <text x="65" y="43.5" fill="#E6EDF3" font-family="sans-serif" font-size="7.5">Then 1</text>
+  </g>
+</svg>

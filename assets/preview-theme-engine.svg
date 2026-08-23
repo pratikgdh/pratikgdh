@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 150" width="100%" height="150">
+  <style>
+    .theme-transition-accent {
+      animation: themeAccent 4s infinite ease-in-out;
+    }
+    .theme-transition-bg {
+      animation: themeBg 4s infinite ease-in-out;
+    }
+    .swatch-1 { animation: pulse1 4s infinite ease-in-out; }
+    .swatch-2 { animation: pulse2 4s infinite ease-in-out; }
+    .swatch-3 { animation: pulse3 4s infinite ease-in-out; }
+
+    @keyframes themeAccent {
+      0%, 30% { stroke: #58A6FF; fill: #58A6FF; }
+      35%, 65% { stroke: #BC8CFF; fill: #BC8CFF; }
+      70%, 100% { stroke: #3FB950; fill: #3FB950; }
+    }
+    @keyframes themeBg {
+      0%, 30% { fill: #161B22; }
+      35%, 65% { fill: #1B1528; }
+      70%, 100% { fill: #13231B; }
+    }
+    @keyframes pulse1 {
+      0%, 30% { transform: scale(1.15); stroke: #FFFFFF; stroke-width: 2; }
+      35%, 100% { transform: scale(1); stroke: none; }
+    }
+    @keyframes pulse2 {
+      0%, 30% { transform: scale(1); stroke: none; }
+      35%, 65% { transform: scale(1.15); stroke: #FFFFFF; stroke-width: 2; }
+      70%, 100% { transform: scale(1); stroke: none; }
+    }
+    @keyframes pulse3 {
+      0%, 65% { transform: scale(1); stroke: none; }
+      70%, 100% { transform: scale(1.15); stroke: #FFFFFF; stroke-width: 2; }
+    }
+  </style>
+
+  <!-- Main Background Container -->
+  <rect width="100%" height="100%" fill="#0D1117" rx="8" />
+
+  <!-- Simulated Unreal Editor Window -->
+  <rect x="20" y="15" width="340" height="120" class="theme-transition-bg" stroke="#30363D" stroke-width="1.2" rx="6" />
+
+  <!-- Window Header -->
+  <rect x="20" y="15" width="340" height="22" fill="#21262D" rx="6" />
+  <circle cx="34" cy="26" r="3.5" fill="#F85149" />
+  <circle cx="46" cy="26" r="3.5" fill="#E3B341" />
+  <circle cx="58" cy="26" r="3.5" fill="#3FB950" />
+  <text x="80" y="29" fill="#8B949E" font-family="sans-serif" font-size="9" font-weight="600">Theme Engine Pro • Active Palette</text>
+
+  <!-- Left Theme Preset Selector -->
+  <g transform="translate(35, 48)">
+    <text x="0" y="10" fill="#8B949E" font-family="sans-serif" font-size="9" font-weight="bold">THEME PRESETS</text>
+    <g transform="translate(0, 20)">
+      <circle cx="10" cy="5" r="8" fill="#58A6FF" class="swatch-1" />
+      <text x="26" y="9" fill="#E6EDF3" font-family="sans-serif" font-size="9">Cyber Slate</text>
+    </g>
+    <g transform="translate(0, 42)">
+      <circle cx="10" cy="5" r="8" fill="#BC8CFF" class="swatch-2" />
+      <text x="26" y="9" fill="#E6EDF3" font-family="sans-serif" font-size="9">Royal Violet</text>
+    </g>
+    <g transform="translate(0, 64)">
+      <circle cx="10" cy="5" r="8" fill="#3FB950" class="swatch-3" />
+      <text x="26" y="9" fill="#E6EDF3" font-family="sans-serif" font-size="9">Matrix Green</text>
+    </g>
+  </g>
+
+  <!-- Right Simulated UI Elements changing theme -->
+  <g transform="translate(180, 50)">
+    <!-- Button Preview -->
+    <rect x="0" y="5" width="160" height="24" rx="4" class="theme-transition-accent" fill-opacity="0.2" stroke-width="1.5" />
+    <text x="35" y="21" class="theme-transition-accent" font-family="sans-serif" font-size="10" font-weight="bold">Apply Editor Theme</text>
+
+    <!-- Graph Node Header Preview -->
+    <rect x="0" y="40" width="160" height="35" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <rect x="0" y="40" width="160" height="14" rx="4" class="theme-transition-accent" />
+    <text x="8" y="50" fill="#FFFFFF" font-family="sans-serif" font-size="8" font-weight="bold">Blueprint Graph Accent</text>
+  </g>
+</svg>
