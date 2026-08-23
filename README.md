@@ -22,7 +22,26 @@
 
   <br/><br/>
 
-  <!-- Tech Stack Icons -->
+  <!-- Dark Theme Streak Tracker Infographic -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pratikgdh&theme=dark&hide_border=true&background=0D1117&ring=30363D&fire=E6EDF3&currStreakLabel=8B949E" width="90%" alt="Streak Stats" />
+
+  <br/><br/>
+
+  <!-- Repository & Language Breakdown Infographics -->
+  <table border="0" align="center">
+    <tr align="center">
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pratikgdh&theme=github_dark" alt="Repos Per Language" height="165" />
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pratikgdh&theme=github_dark" alt="Most Committed Language" height="165" />
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <!-- Tech Stack Icons (Bottom) -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,unreal,py,git,github,vscode,visualstudio&theme=dark" alt="Tech Stack" />
   </a>
