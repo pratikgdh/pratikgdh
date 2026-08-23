@@ -9,6 +9,14 @@
 
   <br/><br/>
 
+  <!-- 3D Isometric Contribution Landscape -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pratikgdh/pratikgdh/main/profile-3d-contrib/profile-night-view.svg">
+    <img alt="3D Isometric Contribution Grid" src="https://raw.githubusercontent.com/pratikgdh/pratikgdh/main/profile-3d-contrib/profile-night-view.svg" width="100%" />
+  </picture>
+
+  <br/><br/>
+
   <!-- Dark Slate Contribution Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=pratikgdh&theme=github-dark&hide_border=true&bg_color=0D1117&color=E6EDF3&line=56D364&point=2EA043" width="100%" alt="Activity Graph" />
 
@@ -19,7 +27,21 @@
 
   <br/><br/>
 
-  <!-- Tech Stack Icons -->
+  <!-- Verified Repository & Language Breakdown -->
+  <table border="0" align="center">
+    <tr align="center">
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pratikgdh&theme=github_dark" alt="Repos Per Language" height="165" />
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pratikgdh&theme=github_dark" alt="Most Committed Language" height="165" />
+      </td>
+    </tr>
+  </table>
+
+  <br/>
+
+  <!-- Tech Stack Icons (Bottom) -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,unreal,py,git,github,vscode,visualstudio&theme=dark" alt="Tech Stack" />
   </a>
