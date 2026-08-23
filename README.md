@@ -11,8 +11,8 @@
 
   <!-- 3D Isometric Contribution Landscape -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pratikgdh/pratikgdh/main/profile-3d-contrib/profile-night-view.svg">
-    <img alt="3D Isometric Contribution Grid" src="https://raw.githubusercontent.com/pratikgdh/pratikgdh/main/profile-3d-contrib/profile-night-view.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <img alt="3D Isometric Contribution Grid" src="profile-3d-contrib/profile-night-view.svg" width="100%" />
   </picture>
 
   <br/><br/>
