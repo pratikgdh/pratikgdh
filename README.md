@@ -17,8 +17,46 @@
 
   <br/><br/>
 
-  <!-- Repository Orbit / Solar System Visualizer -->
-  <img src="solar-system.svg" width="100%" alt="Repository Orbit Solar System" />
+  <!-- 🚀 Featured Projects & Systems -->
+  <table border="0" align="center" width="100%">
+    <tr>
+      <td width="50%" valign="top" style="padding: 12px;">
+        <h3>🎮 Flow Menu</h3>
+        <p>Modular dynamic menu & rapid navigation system engineered for Unreal Engine.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
+          <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
+          <img src="https://img.shields.io/badge/Plugin-161B22?style=flat-square&logoColor=white" />
+        </p>
+      </td>
+      <td width="50%" valign="top" style="padding: 12px;">
+        <h3>🎨 Theme Engine Pro</h3>
+        <p>Advanced runtime styling, UI theming, and palette management framework for interactive applications.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Theme%20Engine-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
+          <img src="https://img.shields.io/badge/UI%2FUX%20System-21262D?style=flat-square" />
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top" style="padding: 12px;">
+        <h3>⚡ Shortcut Cards</h3>
+        <p>Visual quick-action command cards and developer workflow accelerator.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Productivity-21262D?style=flat-square" />
+          <img src="https://img.shields.io/badge/Workflow%20Tools-161B22?style=flat-square" />
+        </p>
+      </td>
+      <td width="50%" valign="top" style="padding: 12px;">
+        <h3>📝 More Notes • Favorite Notes</h3>
+        <p>Clean, high-efficiency note-taking, pinning, and rapid reference management tool.</p>
+        <p>
+          <img src="https://img.shields.io/badge/Knowledge%20Base-21262D?style=flat-square" />
+          <img src="https://img.shields.io/badge/Smart%20Notes-161B22?style=flat-square" />
+        </p>
+      </td>
+    </tr>
+  </table>
 
   <br/><br/>
 
