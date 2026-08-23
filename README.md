@@ -27,14 +27,9 @@
 
   <br/><br/>
 
-  <!-- Tech Stack Icons (Bottom) -->
+  <!-- Tech Stack Icons -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,unreal,py,git,github,vscode,visualstudio&theme=dark" alt="Tech Stack" />
   </a>
-
-  <br/><br/>
-
-  <!-- Minimal Dark Slate Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0_161b22,1_21262d,2_30363d&height=40&section=footer" width="100%" />
 
 </div>
