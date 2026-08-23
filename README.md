@@ -1,12 +1,7 @@
 <div align="center">
 
   <!-- Minimalist Soft Banner Header -->
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,20,24&height=140&section=header&text=Pratik%20Ranjan&fontSize=36&fontAlignY=46&animation=twinkling&desc=Full%20Stack%20Developer&descAlignY=70&descAlign=50&descSize=16" width="100%" />
-
-  <!-- Animated Clean Typing Line -->
-  <a href="https://github.com/pratikgdh">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=1000&color=60A5FA&center=true&vCenter=true&width=500&lines=Building+clean,+scalable+software;Minimalist+UI%2C+powerful+systems;Turning+ideas+into+production+code" alt="Typing SVG" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,20,24&height=130&section=header&text=Pratik%20Ranjan&fontSize=38&fontAlignY=50&animation=twinkling" width="100%" />
 
   <br/><br/>
 
