@@ -9,6 +9,19 @@
 
   <br/><br/>
 
+  <!-- 3D Isometric Contribution Grid / Blocks -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
+    <img alt="3D Isometric Contribution Grid" src="profile-3d-contrib/profile-night-view.svg" width="100%" />
+  </picture>
+
+  <br/><br/>
+
+  <!-- Dark Slate Contribution Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=pratikgdh&theme=github-dark&hide_border=true&bg_color=0D1117&color=E6EDF3&line=56D364&point=2EA043" width="100%" alt="Activity Graph" />
+
+  <br/><br/>
+
   <!-- Tech Stack Icons -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,unreal,py,git,github,vscode,visualstudio&theme=dark" alt="Tech Stack" />
