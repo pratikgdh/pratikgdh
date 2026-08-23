@@ -34,9 +34,6 @@
             <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
             <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
             <img src="https://img.shields.io/badge/Editor%20Plugin-161B22?style=flat-square" />
-            <a href="https://github.com/pratikgdh/FlowMenu/stargazers">
-              <img src="https://img.shields.io/github/stars/pratikgdh/FlowMenu?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
-            </a>
           </p>
         </div>
       </td>
@@ -54,9 +51,6 @@
             <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
             <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
             <img src="https://img.shields.io/badge/UI%20Theming-161B22?style=flat-square" />
-            <a href="https://github.com/pratikgdh/Unreal-theme-engine/stargazers">
-              <img src="https://img.shields.io/github/stars/pratikgdh/Unreal-theme-engine?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
-            </a>
           </p>
         </div>
       </td>
@@ -76,9 +70,6 @@
             <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
             <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
             <img src="https://img.shields.io/badge/Blueprint%20Tool-161B22?style=flat-square" />
-            <a href="https://github.com/pratikgdh/favoritenodes/stargazers">
-              <img src="https://img.shields.io/github/stars/pratikgdh/favoritenodes?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
-            </a>
           </p>
         </div>
       </td>
@@ -96,9 +87,6 @@
             <img src="https://img.shields.io/badge/Unreal%20Engine%205-21262D?style=flat-square&logo=unrealengine&logoColor=white" />
             <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
             <img src="https://img.shields.io/badge/Shortcuts-161B22?style=flat-square" />
-            <a href="https://github.com/pratikgdh/more-node-shortcuts/stargazers">
-              <img src="https://img.shields.io/github/stars/pratikgdh/more-node-shortcuts?style=flat-square&color=21262D&labelColor=161B22&logo=github" />
-            </a>
           </p>
         </div>
       </td>
