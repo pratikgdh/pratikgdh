@@ -27,20 +27,6 @@
 
   <br/><br/>
 
-  <!-- Repository & Language Breakdown Infographics -->
-  <table border="0" align="center">
-    <tr align="center">
-      <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=pratikgdh&theme=github_dark" alt="Repos Per Language" height="165" />
-      </td>
-      <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=pratikgdh&theme=github_dark" alt="Most Committed Language" height="165" />
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
   <!-- Tech Stack Icons (Bottom) -->
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=cpp,unreal,py,git,github,vscode,visualstudio&theme=dark" alt="Tech Stack" />
