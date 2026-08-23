@@ -5,13 +5,6 @@
 
   <br/><br/>
 
-  <!-- Sleek Tech Stack Icons -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,py,react,next,nodejs,express,mongodb,postgres,docker,git,vscode&theme=dark" alt="Tech Stack" />
-  </a>
-
-  <br/><br/>
-
   <!-- Animated Contribution Snake -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pratikgdh/pratikgdh/output/github-contribution-grid-snake-dark.svg">
@@ -28,6 +21,13 @@
 
   <!-- Contribution Streak Tracker -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=pratikgdh&theme=tokyonight&hide_border=true&background=0D1117&ring=60A5FA&fire=3B82F6&currStreakLabel=60A5FA" width="90%" alt="Streak Stats" />
+
+  <br/><br/>
+
+  <!-- Tech Stack Icons (Moved to Bottom) -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,unreal,py,git,github,vscode,visualstudio&theme=dark" alt="Tech Stack" />
+  </a>
 
   <br/><br/>
 
