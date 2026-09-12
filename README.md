@@ -66,8 +66,8 @@
 <tr>
 <td colspan="2" width="100%" valign="top" style="padding: 14px; background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
 <div align="left">
-<h3><a href="https://globalsip.web.app" style="text-decoration: none; color: #58a6ff;">📈 Global SIP Calculator</a></h3>
-<p style="color: #8b949e; font-size: 14px;">Cross-border financial simulator to backtest and simulate Systematic Investment Plans (SIPs) combining US ETFs and global mutual funds with real daily historical AMFI NAVs, currency exchange rates, step-up compounding, and inflation adjustments.</p>
+<h3><a href="https://globalsip.web.app" style="text-decoration: none; color: #58a6ff;">📈 Global SIP Calculator | Simulate SIP US ETFs & Global Mutual Funds</a></h3>
+<p style="color: #8b949e; font-size: 14px;">Simulate your SIP with funds from any country. Easily test and combine US ETFs, mutual funds, and global assets with real historical returns, currency exchange rates, and inflation adjustments.</p>
 <p>
 <img src="https://img.shields.io/badge/Web%20App-21262D?style=flat-square&logo=googlechrome&logoColor=white" />
 <img src="https://img.shields.io/badge/React-21262D?style=flat-square&logo=react&logoColor=61DAFB" />
