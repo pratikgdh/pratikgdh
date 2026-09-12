@@ -67,11 +67,6 @@
 
 <br/><br/>
 
-<!-- Dark Slate Contribution Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pratikgdh&theme=github-dark&hide_border=true&bg_color=0D1117&color=E6EDF3&line=56D364&point=2EA043" width="100%" alt="Activity Graph" />
-
-<br/><br/>
-
 <!-- Dark Theme Streak Tracker Infographic -->
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=pratikgdh&theme=dark&hide_border=true&background=0D1117&ring=30363D&fire=E6EDF3&currStreakLabel=8B949E" width="90%" alt="Streak Stats" />
 
