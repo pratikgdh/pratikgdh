@@ -9,14 +9,6 @@
 
   <br/><br/>
 
-  <!-- 3D Isometric Contribution Grid / Blocks -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-view.svg">
-    <img alt="3D Isometric Contribution Grid" src="profile-3d-contrib/profile-night-view.svg" width="100%" />
-  </picture>
-
-  <br/><br/>
-
   <!-- 🛠️ Featured Unreal Engine Plugins & Projects -->
   <table border="0" align="center" width="100%">
     <tr>
