@@ -9,7 +9,7 @@
 
 <br/><br/>
 
-<!-- 🛠️ Featured Unreal Engine Plugins & Projects -->
+<!-- 🛠️ Featured Plugins & Applications -->
 <table border="0" align="center" width="100%">
 <tr>
 <td width="50%" valign="top" style="padding: 14px; background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
@@ -59,6 +59,21 @@
 <img src="https://img.shields.io/badge/C%2B%2B-21262D?style=flat-square&logo=c%2B%2B&logoColor=white" />
 <img src="https://img.shields.io/badge/Shortcuts-161B22?style=flat-square" />
 <a href="https://fab.com/s/6183f3bf6613"><img src="https://img.shields.io/badge/Get%20on-Fab-0078F2?style=flat-square&logo=unrealengine&logoColor=white" alt="Get on Fab" /></a>
+</p>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" valign="top" style="padding: 14px; background-color: #0d1117; border: 1px solid #21262d; border-radius: 8px;">
+<div align="left">
+<h3><a href="https://globalsip.web.app" style="text-decoration: none; color: #58a6ff;">📈 Global SIP Calculator</a></h3>
+<p style="color: #8b949e; font-size: 14px;">Cross-border financial simulator to backtest and simulate Systematic Investment Plans (SIPs) combining US ETFs and global mutual funds with real daily historical AMFI NAVs, currency exchange rates, step-up compounding, and inflation adjustments.</p>
+<p>
+<img src="https://img.shields.io/badge/Web%20App-21262D?style=flat-square&logo=googlechrome&logoColor=white" />
+<img src="https://img.shields.io/badge/React-21262D?style=flat-square&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/FastAPI-21262D?style=flat-square&logo=fastapi&logoColor=009688" />
+<img src="https://img.shields.io/badge/FinTech%20Simulator-161B22?style=flat-square" />
+<a href="https://globalsip.web.app"><img src="https://img.shields.io/badge/Live%20App-globalsip.web.app-2ea043?style=flat-square" alt="Live App" /></a>
 </p>
 </div>
 </td>
